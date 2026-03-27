@@ -16,7 +16,7 @@ public class Calculator {
         if (b == 0) {
             throw new IllegalArgumentException("No se puede dividir por cero");
         }
-        return a / b;
+        return a + b; //CAMBIO AQUI
     }
     
     public static void main(String[] args) {
